@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Current Playlist</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header id="header-main">
+    <h1>Sarah Nelson</h1>
+    <nav id="nav-main">
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="resume"><a href="#">Resume</a></li>
+            <li class="projects"><a href="#">Projects</a></li>
+            <li class="recipes"><a href="#">Recipes</a></li>
+            <li class="playlist"><a href="playlist.html">Music</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+    <section class="column" id="list-of-songs">
+        <h2>My Current Playlist</h2>
+        <p>(note: some songs may contain explicit language)</p>
+        <iframe id="embedded-playlist" src="https://open.spotify.com/embed/playlist/76hE36lffZbR1OpnX1NCpk" width="300" height="380" allow="encrypted-media"></iframe>
+
+        <p>See more playlists on my Spotify profile: <a href="https://open.spotify.com/user/snelly17?si=Qsafc2mdThCVL7-Hd-U9Uw">snelly17</a>&#10032;</p>
+    </section>
+
+    <section class="column" id="song-recs">
+        <h3>To recommend a song, fill out the form below!</h3>
+        <form>
+            <p><label for="name">Your Name: </label><input type="text" id="name" name="name"></p>
+            <p><label for="email">Your Email Address: </label><input type="email" id="email" name="email"></p>
+            <p><label for="song-name">Song Title: </label><input type="text" id="song-name" name="song-name"></p>
+            <p><button type="submit">Submit Request</button></p>
+        </form>
+    </section>
+</main>
+      
+<footer id="page-footer">
+    <p>&copy; 2020 Sarah Nelson &#10032;</p>
+</footer>
+</body>
+</html> 
